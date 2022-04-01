@@ -20,8 +20,12 @@ executed from the root project directory
 mvn test
 ```
 
+###Configuration
+All validation rules can be set within the boot\src\main\resources\validation.properties file.
+
 #Running the application
 ```
+cd boot
 mvn spring-boot:run
 ```
 
