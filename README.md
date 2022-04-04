@@ -28,6 +28,9 @@ All validation rules can be set within the boot\src\main\resources\validation.pr
 cd boot
 mvn spring-boot:run
 ```
-
 Application Swagger UI will be available at
 [http://localhost:8080/swagger-ui.html](http://localhost:8080/swagger-ui.html)
+
+###Logs
+Use the boot\src\main\resources\log4j2.properties file to setup the logger. The requestLogger will log all your http request to separate file. 
+
